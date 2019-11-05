@@ -35,7 +35,7 @@ public class makeMyTrip {
 		 from.sendKeys(Keys.DOWN); 
 		 Thread.sleep(4000);
 		 from.sendKeys(Keys.DOWN);
-		 		 
+		// This part is not working 		 
 		 JavascriptExecutor js=(JavascriptExecutor)driver;
 		 String script="return document.getElementById(\"react-autowhatever-1\").value;";
 		 String text2=(String) js.executeScript(script);
